@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Kumar Prem | Developer & Student</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        /* Add a gradient background */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #ff69b4, #33ccff);
+            background-size: 400% 400%;
+            animation: gradient 3s ease-in-out infinite;
+        }
+
+        /* Define the animation for the gradient background */
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Add a curvy box with a revolving rainbow lighting effect */
+       .curvy-box {
+            background-color: #E5D8B6;
+            padding: 100px;
+            border-radius: 100px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+       .curvy-box::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60%;
+            height: 90%;
+            border-radius: 50px;
+            background: linear-gradient(to bottom, #ff69b4, #33ccff);
+            background-size: 100% 100%;
+            animation: rainbow 3s ease-in-out infinite;
+            z-index: -1;
+        }
+
+        /* Define the animation for the revolving rainbow lighting effect */
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="curvy-box">
+        <h1>Hi there, I'm AYUSH KUMAR PREM 👋</h1>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate developer and a college student pursuing a dual degree in BTech in Computer Science Engineering (CSE) and MBA. I love exploring new technologies, solving problems, and building projects that can make a difference.</p>
+        </section>
+        <section id="current-projects">
+            <h2>Current Projects</h2>
+            <p>🔭 I’m currently working on <strong>MBPE (Monthly Budget Plan & Expenditure)</strong>.</p>
+        </section>
+        <section id="learning">
+            <h2>Learning</h2>
+            <p>🌱 I’m currently learning <strong>Java</strong>.</p>
+        </section>
+        <section id="collaboration">
+            <h2>Collaboration</h2>
+            <p>👯 I’m looking to collaborate on <strong>database projects</strong>.</p>
+        </section>
+        <section id="ask-me">
+            <h2>Ask Me About</h2>
+            <p>💬 Ask me about <strong>MySQL</strong>, <strong>Python</strong>.</p>
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>📫 How to reach me: 
+                <a href="mailto:ayushkumarprem87@gmail.com">
+                    <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" width="20" height="20" alt="Gmail">
+                    ayushkumarprem87@gmail.com
+                </a>, 
+                <a href="https://instagram.com/AYUSH_KR_PREM">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="20" height="20" alt="Instagram">
+                    @AYUSH_KR_PREM
+                </a>
+              <a href="tel:+91 1234567890">
+            <img src="https://cdn-icons-png.flaticon.com/512/725/725643.png" width="20" height="20" alt="Phone">
+            +91 1234567890
+        </a>
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Skills & Tools</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, HTML, Java (still learning)</li>
+                <li><strong>Tools & Platforms:</strong>
